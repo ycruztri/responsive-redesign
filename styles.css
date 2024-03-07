@@ -16,7 +16,6 @@
     display:flex; 
     justify-content: space-around;
     align-items: center;
-    /* font-family: 'Copperplate'; */
     font-family: 'Andale Mono', monospace;
     padding: 75px;
 }
@@ -25,34 +24,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
     height: 50%;
-    overflow: hidden; 
 }
 
 .slideshowImg{
     display: none;
 }
 
-.slideshowImg img{
-    width: auto; 
-    height: auto;
-}
 
-.fadeEffect{
-    animation-name: fade;
-    animation-duration: 1500ms;
+.buttonImgs{
+    width: 20%;
 }
 
 body{
     background-color: #CCDFDE;
 }
 
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+button{
+    border: none;
+    border-color: none;
+    background: none;
+    width: auto;
+    margin: -10%;
 }

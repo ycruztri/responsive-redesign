@@ -10,7 +10,7 @@ function displayImg(){
 }
 
 function prevImg(){
-    idx = (idx - 1) % imgs.length; 
+    idx = (idx - 1 + imgs.length) % imgs.length; 
     displayImg(); 
 }
 
