@@ -9,16 +9,17 @@ function displayImg(){
     imgs[idx].style.display = "block";
 }
 
-function prevImg(){
-    idx = (idx - 1 + imgs.length) % imgs.length; 
-    displayImg(); 
-}
-
 function nextImg(){
     idx = (idx + 1) % imgs.length; 
     displayImg(); 
 }
 
+function playSlideshow(){
+    displayImg(); 
+    setInterval(nextImg, 2500);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
-    displayImg();
+    playSlideshow();
+    
 });
