@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" conent="width=device-width, initial-scale=1.0" />
+        <title>Bagel Gourmet Cafe</title>
+        <!-- Importing CSS Styles -->
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Importing JavaScript for the Slideshow -->
+        <script src="script.js"></script>
+    </head>
+
+    <!--Page Content: -->
+    <body>
+        <div id="keyInfo">
+            <img id="logo" alt="Bagel Gourmet Cafe Logo" src="./assets/logo.png" />
+            <h2>Menu</h2>
+            <h2>Order</h2>
+            <h2>About Us</h2>
+            <h2>Contact Us</h2>
+        </div>
+        <div id="title">
+            <h1>Welcome to the Best Bagels in Rhode Island!</h1>
+        </div>
+        <div id="slideshow">
+            <div class="fadeEffect">
+                <img class="slideshowImg" src="./assets/SP1.png" alt="Image of multiple bagels at Bagel Gourmet Cafe"/>
+            </div>
+            <div class="fadeEffect">
+                <img class="slideshowImg" src="./assets/SP2.png" alt="Image of bacon, egg, and cheese bagel with avocado"/>
+            </div>
+            <div class="fadeEffect">
+                <img class="slideshowImg" src="./assets/SP3.png" alt="Image of an egg and cheese bagel"/>
+            </div>
+            <div class="fadeEffect">
+                <img class="slideshowImg" src="./assets/SP4.png" alt="Image of all of the options of bagels at the cafe"/>
+            </div>
+            
+        </div>
+        <div id="slideshowButtons">
+            <button onclick="prevImg()"> Previous </button>
+            <button onclick="nextImg()"> Next </button>
+        </div>
+    </body>
+</html>
