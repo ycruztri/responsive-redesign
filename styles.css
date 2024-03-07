@@ -39,9 +39,13 @@
     flex-direction: column;
     align-items: center;
     width: 70vw;
-    height: 25vw;
+    height: 35vw;
     padding: 75px;
     background-color: white;
+}
+
+#viewMenu{
+    border-radius: 40%;
 }
 
 .slideshowImg{
@@ -67,6 +71,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 20%;
 }
 
 .m2{
@@ -74,6 +79,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 20%;
 }
 
 .m3{
@@ -81,39 +87,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 20%;
 }
-
-
-/* .pItem{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.everything{
-    width: 10vw;
-}
-
-.eItem{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.sesame{
-    width: 10vw;
-}
-
-.sItem{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-} */
-
 
 body{
     background-color: #CCDFDE;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button{
+    width: 5vw;
+    height: 2vw;
+    background-color: #CCDFDE;
 }
